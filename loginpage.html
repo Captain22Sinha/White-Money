@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Login Page</title>
+    <style>
+      body {
+        background-color: #f2f2f2;
+      }
+
+      .container {
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 100px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+      }
+
+      input[type="submit"] {
+        width: 100%;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <nav
+      class="flex border-b-4 py-3 drop-shadow-md shadow-black sticky top-0 z-10 bg-blue-700 bg-opacity-50 text-white backdrop-blur-md"
+    >
+      <a href="index.html"
+        ><h1
+          class="px-36 py-2 font-['Cabin'] text-4xl font-bold hover:text-black cursor-pointer"
+        >
+          White Money
+        </h1></a
+      >
+      <a href="investing.html"
+        ><h1 class="px-6 py-4 text-xl hover:text-black cursor-pointer">
+          INVESTING
+        </h1></a
+      >
+      <a href="economy.html"
+        ><h1 class="px-6 py-4 text-xl hover:text-black cursor-pointer">
+          ECONOMY
+        </h1></a
+      >
+      <a href="pf.html">
+        <h1 class="px-6 py-4 text-xl hover:text-black cursor-pointer">
+          PERSONAL FINANCE
+        </h1></a
+      >
+      <a href="about.html">
+        <h1 class="px-6 py-4 text-xl hover:text-black cursor-pointer">
+          ABOUT
+        </h1></a
+      >
+      <a href="loginpage.html"
+        ><button
+          class="justify-end bg-blue-600 border-2 border-blue-600 px-4 ml-11 mx-2 py-2 rounded-2xl text-xl hover:border-2 hover:border-black hover:bg-white hover:text-black"
+        >
+          Login
+        </button></a
+      >
+      <a href="signup.html"
+        ><button
+          class="justify-end bg-blue-600 border-2 border-blue-600 px-4 mx-2 py-2 rounded-2xl text-xl hover:border-2 hover:border-black hover:bg-white hover:text-black"
+        >
+          Sign Up
+        </button></a
+      >
+    </nav>
+    <div class="container">
+      <h2>Login</h2>
+      <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+
+        <input type="submit" value="Login" />
+      </form>
+    </div>
+  </body>
+</html>
